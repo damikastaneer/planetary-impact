@@ -3,24 +3,30 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --primary: #00b2cd;
+  --header-text: #3b4559;
+  --recent-news-background: #ca433c;
+  --text-on-dark: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-header-text: var(--header-text);
+  --color-news-background: var(--recent-news-background);
+  --color-text-on-dark: var(--text-on-dark);
+
+  --font-sans: var(--font-nunito-sans);
+  --font-display: var(--font-space-grotesk);
+
+  --radius-card: 16px;
+  --radius-button: 4px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
