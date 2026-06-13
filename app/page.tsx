@@ -1,3 +1,4 @@
+import Logo from "@/components/ui/Logo";
 import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import UspSection from "@/components/sections/UspSection";
@@ -7,8 +8,12 @@ import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
     <>
-      <Header />
+      <div className="pt-6 pl-6">
+        <Logo />
+      </div>
+
       <Hero />
+      <Header />
       <UspSection />
       <RecentNews />
       <Footer />
