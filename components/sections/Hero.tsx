@@ -8,7 +8,7 @@ export default function Hero() {
         alt="Planetary Impact hero"
         width={1392}
         height={464}
-        className="h-auto w-full"
+        className="h-[464px] w-full object-cover"
       />
     </section>
   );
