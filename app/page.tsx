@@ -11,8 +11,8 @@ export default function Home() {
       <div className="pt-6 pl-6">
         <Logo />
       </div>
-
       <Hero />
+
       <Header />
       <UspSection />
       <RecentNews />
