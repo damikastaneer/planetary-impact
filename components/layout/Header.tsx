@@ -1,15 +1,12 @@
 export default function Header() {
   return (
-    <section className="mt-10 text-header-text text-center">
-      <div className="w-[780px] mx-auto">
-        <h2 className="text-[64px] font-extrabold font-sans leading-none">
-          “Maak werk van Mars”
-        </h2>
-        <p className="text-[25px] font-normal font-display mt-4">
-          Mars is de toekomst. Planetary Impact helpt u met het zoeken naar een
-          geschikte plek voor uw kolonie.
-        </p>
+    <>
+      <div className="mt-6 ml-6">
+        <div className="flex flex-col font-sans text-[36px] tracking-[-0.025em] text-primary">
+          <h1 className="mb-1 font-bold leading-[0.71]">Planetary Impact</h1>
+          <span className="font-normal leading-[0.86] ">HUB</span>
+        </div>
       </div>
-    </section>
+    </>
   );
 }

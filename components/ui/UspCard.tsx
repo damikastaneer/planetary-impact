@@ -14,7 +14,7 @@ export default function UspCard({ title, description, image }: UspCardProps) {
         <h3 className="text-primary max-w-[457px] text-[30px] font-bold font-sans leading-none">
           {title}
         </h3>
-        <p className="mt-4 text-text-on-dark max-w-[571px] text-[20px] font-display leading-none">
+        <p className="mt-4 text-text-on-dark max-w-[571px] text-[20px] font-display leading-[1.2]">
           {description}
         </p>
         <div className="ml-auto mt-auto">

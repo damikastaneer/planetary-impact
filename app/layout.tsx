@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({
       className={`${nunitoSans.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
+        <Header />
         {children}
         <Footer />
       </body>

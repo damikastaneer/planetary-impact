@@ -6,16 +6,16 @@ export default function RecentNews() {
       <div className="flex h-[256px] w-full">
         <div className="flex h-[229px] w-[615px] flex-col gap-8">
           <div className="flex h-[41px] w-[615px] justify-between">
-            <h3 className="font-sans text-[30px] font-bold leading-none underline text-text-on-dark">
+            <p className="font-sans text-[30px] font-bold leading-none underline text-text-on-dark">
               Recent nieuws
-            </h3>
+            </p>
 
-            <h3 className="font-display text-[24px] font-normal text-header-text">
+            <p className="font-display text-[24px] font-normal text-header-text">
               EVENT
-            </h3>
+            </p>
           </div>
 
-          <p className="h-[156px] font-display text-[20px] font-normal leading-none text-text-on-dark">
+          <p className="h-[156px] font-display text-[20px] font-normal leading-[1.2] text-text-on-dark">
             SpaceX richt zich op 2026 voor Eerste Onbemande Mars Missie. Deze
             ontwikkeling vertegenwoordigt een grote sprong voorwaarts voor Mars
             kolonisatie infrastructuur, waarbij industrie-experts significante
