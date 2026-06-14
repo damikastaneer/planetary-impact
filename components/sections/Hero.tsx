@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="px-6 mt-[44px]">
+    <section className="mx-6 mt-[44px]">
       <Image
         src="/images/hero.jpg"
         alt="Planetary Impact hero"

@@ -8,7 +8,7 @@ import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
     <>
-      <div className="pt-6 pl-6">
+      <div className="mt-6 ml-6">
         <Logo />
       </div>
       <Hero />
