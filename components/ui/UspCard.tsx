@@ -11,7 +11,7 @@ export default function UspCard({ title, description, image }: UspCardProps) {
     <div className="relative w-[635px] h-[360px] rounded-card overflow-hidden">
       <Image src={image} alt={title} fill className="object-cover" />
       <div className=" absolute inset-0 flex flex-col p-8 bg-black/75">
-        <h3 className="text-primary max-w-[432px] text-[30px] font-bold font-sans leading-none">
+        <h3 className="text-primary max-w-[457px] text-[30px] font-bold font-sans leading-none">
           {title}
         </h3>
         <p className="mt-4 text-text-on-dark max-w-[571px] text-[20px] font-display leading-none">
