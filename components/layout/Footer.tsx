@@ -1,21 +1,25 @@
 import Image from "next/image";
 import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+
 export default function Footer() {
   return (
-    <footer className="w-[1392px] h-[350px] mt-[104px] mx-auto flex py-[32px] px-[80px] bg-primary">
+    <footer className="mt-10 flex h-[153px] bg-primary p-4 text-text-on-dark md:mx-auto md:mt-[104px] md:h-[350px] md:w-[1392px] md:px-[80px] md:py-[32px]">
       <div className="flex h-full flex-col">
-        <div className="flex flex-col mt-4">
-          <h3 className="text-text-on-dark font-display font-bold text-[24px]">
+        <div className="flex flex-col">
+          <h3 className="font-display text-[16px] font-bold md:text-[24px]">
             Contact:
           </h3>
-          <p className="text-text-on-dark font-display font-normal text-[24px] ">
+
+          <p className="font-display text-[14px] font-normal md:text-[24px]">
             dr. Nova Sterling
           </p>
-          <p className="text-text-on-dark font-display font-normal text-[24px] underline">
+
+          <p className="font-display text-[14px] font-normal underline md:text-[24px]">
             n.sterling@hhs.nl
           </p>
         </div>
-        <div className="relative mt-auto w-[269px] h-[83px]">
+
+        <div className="relative mt-auto h-[42px] w-[136px] md:h-[83px] md:w-[269px]">
           <Image
             src="/images/hhsLogo.png"
             alt="De Haagse Hogeschool logo"
@@ -27,16 +31,16 @@ export default function Footer() {
 
       <div className="ml-auto flex h-full flex-col">
         <div className="mt-auto flex gap-2">
-          <button className="flex h-[64px] w-[64px] items-center justify-center rounded-button bg-white">
-            <FaLinkedin size={37} className="text-primary" />
+          <button className="flex h-[32px] w-[32px] items-center justify-center rounded-button bg-white md:h-[64px] md:w-[64px]">
+            <FaLinkedin size={18} className="text-primary md:size-[37px]" />
           </button>
 
-          <button className="flex h-[64px] w-[64px] items-center justify-center rounded-button bg-white">
-            <FaTwitter size={37} className="text-primary" />
+          <button className="flex h-[32px] w-[32px] items-center justify-center rounded-button bg-white md:h-[64px] md:w-[64px]">
+            <FaInstagram size={18} className="text-primary md:size-[37px]" />
           </button>
 
-          <button className="flex h-[64px] w-[64px] items-center justify-center rounded-button bg-white">
-            <FaInstagram size={37} className="text-primary" />
+          <button className="flex h-[32px] w-[32px] items-center justify-center rounded-button bg-white md:h-[64px] md:w-[64px]">
+            <FaTwitter size={18} className="text-primary md:size-[37px]" />
           </button>
         </div>
       </div>

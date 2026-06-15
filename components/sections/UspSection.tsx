@@ -29,8 +29,8 @@ const uspCards = [
 
 export default function UspSection() {
   return (
-    <section className="mt-[74px] px-6">
-      <div className="grid grid-cols-2 gap-6 mx-auto w-fit">
+    <section className="mt-12 px-4 md:mt-[74px] md:px-6">
+      <div className="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-2 md:gap-6 mx-auto w-full md:w-fit">
         {uspCards.map((card) => (
           <UspCard
             key={card.title}
