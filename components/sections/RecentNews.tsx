@@ -10,12 +10,12 @@ export default function RecentNews() {
               Recent nieuws
             </p>
 
-            <p className="font-display text-[16px] font-normal text-header-text md:text-[24px]">
+            <p className="font-display text-[16px] text-header-text md:text-[24px]">
               EVENT
             </p>
           </div>
 
-          <p className="font-display text-[14px] font-normal leading-none text-white md:h-[156px] md:text-[20px] md:leading-[1.2]">
+          <p className="font-display text-[14px] leading-none text-white md:h-[156px] md:text-[20px] md:leading-[1.2]">
             SpaceX richt zich op 2026 voor Eerste Onbemande Mars Missie. Deze
             ontwikkeling vertegenwoordigt een grote sprong voorwaarts voor Mars
             kolonisatie infrastructuur, waarbij industrie-experts significante

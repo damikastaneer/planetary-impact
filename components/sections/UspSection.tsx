@@ -30,7 +30,7 @@ const uspCards = [
 export default function UspSection() {
   return (
     <section className="mt-12 px-4 md:mt-[74px] md:px-6">
-      <div className="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-2 md:gap-6 mx-auto w-full md:w-fit">
+      <div className="mx-auto grid w-full grid-cols-1 justify-items-center gap-4 md:w-fit md:grid-cols-2 md:gap-6">
         {uspCards.map((card) => (
           <UspCard
             key={card.title}

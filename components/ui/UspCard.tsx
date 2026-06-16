@@ -8,9 +8,9 @@ type UspCardProps = {
 
 export default function UspCard({ title, description, image }: UspCardProps) {
   return (
-    <div className="relative w-full max-w-[343px] h-[207px] md:w-[635px] md:max-w-none md:h-[360px] rounded-card overflow-hidden">
+    <div className="relative h-[207px] w-full max-w-[343px] overflow-hidden rounded-card md:h-[360px] md:w-[635px] md:max-w-none">
       <Image src={image} alt={title} fill className="object-cover" />
-      <div className=" absolute inset-0 flex flex-col p-4 md:p-8 bg-black/75">
+      <div className="absolute inset-0 flex flex-col bg-black/75 p-4 md:p-8">
         <h3 className="max-w-[305px] font-sans text-[20px] font-bold leading-none text-primary md:max-w-[457px] md:text-[30px]">
           {title}
         </h3>

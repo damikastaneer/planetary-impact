@@ -10,11 +10,11 @@ export default function Footer() {
             Contact:
           </h3>
 
-          <p className="font-display text-[14px] font-normal md:text-[24px]">
+          <p className="font-display text-[14px] md:text-[24px]">
             dr. Nova Sterling
           </p>
 
-          <p className="font-display text-[14px] font-normal underline md:text-[24px]">
+          <p className="font-display text-[14px] underline md:text-[24px]">
             n.sterling@hhs.nl
           </p>
         </div>
