@@ -29,7 +29,7 @@ export default function RecentNews() {
             src="/images/news.jpg"
             alt="Recent Nieuws foto van mars"
             fill
-            className="object-cover"
+            className="object-cover object-center"
           />
         </div>
       </div>
